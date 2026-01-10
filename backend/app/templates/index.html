@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Subida de Catálogos</title>
+    <style>
+        body {
+            font-family: system-ui, sans-serif;
+            background: #0f172a;
+            color: #e5e7eb;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .card {
+            background: #020617;
+            padding: 2.5rem;
+            border-radius: 16px;
+            width: 420px;
+            box-shadow: 0 20px 40px rgba(0,0,0,.4);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+
+        label {
+            display: block;
+            margin-top: 1rem;
+            margin-bottom: 0.3rem;
+        }
+
+        input, button {
+            width: 100%;
+            padding: 0.6rem;
+            border-radius: 8px;
+            border: none;
+        }
+
+        input {
+            background: #020617;
+            color: #e5e7eb;
+            border: 1px solid #334155;
+        }
+
+        button {
+            margin-top: 1.5rem;
+            background: #38bdf8;
+            color: #020617;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #0ea5e9;
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <h1>Subir catálogo</h1>
+
+    <form 
+        action="/upload_catalog" 
+        method="post" 
+        enctype="multipart/form-data"
+    >
+        <label>Marca</label>
+        <input type="text" name="marca" required>
+
+        <label>Sucursal</label>
+        <input type="text" name="sucursal" required>
+
+        <label>Archivo</label>
+        <input type="file" name="file" required>
+
+        <button type="submit">Subir catálogo</button>
+    </form>
+</div>
+
+</body>
+</html>
