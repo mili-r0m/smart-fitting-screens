@@ -3,3 +3,6 @@ uvicorn
 python-multipart
 jinja2
 pandas
+google.generativeai
+
+
