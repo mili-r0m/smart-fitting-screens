@@ -26,18 +26,18 @@ Al ingresar al probador, el usuario escanea la prenda que desea probar. A partir
 
 ## 🛠️ Stack Tecnológico
 
-> 🐍 Python
-> 📱 Flutter
-> 🤖 Google Gemini
-> 🌐 FastAPI (API del backend)
-> 📊 Pandas (procesamiento de catálogos)
-> 🗂️ JSON (intercambio de datos)
+🐍 Python
+📱 Flutter
+🤖 Google Gemini
+🌐 FastAPI (API del backend)
+📊 Pandas (procesamiento de catálogos)
+🗂️ JSON (intercambio de datos)
 
 ---
 
 > 🚧 **Proyecto en desarrollo**
->
-> Smart Fitting Screens continúa evolucionando. El objetivo es construir una solución integral para locales de indumentaria, incorporando nuevas funcionalidades, mejoras en la experiencia de usuario e integración de modelos de Inteligencia Artificial.
+
+Smart Fitting Screens continúa evolucionando. El objetivo es construir una solución integral para locales de indumentaria, incorporando nuevas funcionalidades, mejoras en la experiencia de usuario e integración de modelos de Inteligencia Artificial.
 
 ---
 
